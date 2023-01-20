@@ -30,13 +30,19 @@ Usage
 
 ```
 
-{{$laravelDashPackageName->scrumBoard()}}
-{{$laravelDashPackageName->wikis()}}
-{{$laravelDashPackageName->wiki()}}
-{{$laravelDashPackageName->groups()}}
-{{$laravelDashPackageName->group()}}
-{{$laravelDashPackageName->projects()}}
-{{$laravelDashPackageName->project()}}
+{{$laravelDashPackageName->widget()}}
+
+{{$laravelDashPackageName->auth->crud->read()}}
+{{$laravelDashPackageName->auth->crud->update()}}
+
+{{$laravelDashPackageName->auth->role->read()}}
+{{$laravelDashPackageName->auth->role->update()}}
+
+{{$laravelDashPackageName->auth->permission->read()}}
+{{$laravelDashPackageName->auth->permission->update()}}
+
+{{$laravelDashPackageName->auth->dashUser->read()}}
+{{$laravelDashPackageName->auth->dashUser->update()}}
 
 ```
 
